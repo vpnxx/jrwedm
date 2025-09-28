@@ -1,0 +1,87 @@
+.ddsmoothmenu { width:1002px; margin:0 auto; height:45px; padding:0px; background:url(../images/dht.jpg) no-repeat;}
+
+.ddsmoothmenu ul {	 z-index:100;/*Z向浮动高度*/
+					 margin: 0; padding: 0; 
+					 list-style: none;/*去掉LI本身左侧的圆点*/
+					 float:left;/*左浮动，解决些间隔问题*/
+}	
+/*一级栏目---an*/
+.ddsmoothmenu ul li {
+					 position: relative;
+					 display: block;
+					 float:left;
+					 height:45px;					 
+					 width:125px;/*一级单LI宽度*/
+					 line-height:45px;/*一级LI高度*/
+					 text-align:center;	
+ }
+/*这段是适应IE6--an*/
+*html .ddsmoothmenu ul li {
+					 position: relative;/*竖向菜单修改2--竖排*/ 
+					 float:left; 					 
+					 width:125px;/*一级单LI宽度*/
+					 line-height:45px;/*一级LI高度*/
+					 text-align:center;/*文字右对齐*/					 
+ }
+/*一级栏目的链接---an*/
+
+.ddsmoothmenu ul li a {
+ width:125px;/*一级栏目的链接宽度*/
+ display: block; 
+ text-decoration: none;
+ font-weight:bold; 
+ }
+  
+ /*一级栏目链接的属性设置*/
+.ddsmoothmenu ul li a:link, .ddsmoothmenu ul li a:visited { color: #FFF;  }/*一级栏目链接的本身颜色及背景设置*/
+.ddsmoothmenu ul li a:hover {
+	background:url(../images/io.jpg) no-repeat;
+	color: #000;
+	text-decoration: none;
+}/*一级栏目链接鼠标悬停颜色及背景色设置*/
+
+
+/*二级栏目整体控制*/
+.ddsmoothmenu ul li ul { position: absolute; left:0; visibility:hidden;}
+
+/*二级栏目LI的控制*/
+.ddsmoothmenu ul li ul li {float: left; 
+							width:200px;/*二级栏目的li的宽度*/
+ 							line-height:23px;
+							background:#999999;
+							border-bottom:#CCCCCC 1px solid;
+							height:23px;
+							}
+
+
+/*二级栏目的链接属性*/
+.ddsmoothmenu ul li ul li a {width:200px;/*二级栏目的链接宽度*/
+ 							 display: block; 
+							 text-decoration: none; text-align:left; text-indent:20px 
+							 }
+.ddsmoothmenu ul li ul li a:hover{
+	background:#8a5959;
+	color:#FFFFFF;
+	text-decoration: none;
+}
+.ddsmoothmenu ul li ul li ul { top: 0;}
+/*箭头*/
+.downarrowclass { position: absolute; display:none;}
+.rightarrowclass { position: absolute; display:none;}
+/*阴影 */
+.ddshadow { position: absolute; left: 0; top: 0; width: 0; height: 0; background: silver; }
+.toplevelshadow { /*透明度/IE不支持/*/ opacity: 0.8; }
+
+td {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+}
+
+
+.spec{height:38px;}
+.spec td{padding:3px 6px;}
+.spec th{background:#2079b5; color:#FFF; padding:3px 6px;}
+.spec td{border-bottom:#000 1px solid; text-align:left;}
+.spec td.tab01 {color:#175888; /*background:#d5dbd3; */ text-align:left;}
+.tab-tr{background:#d2e9ff;}
+.spec td.note{text-align:left;}

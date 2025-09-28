@@ -1,0 +1,103 @@
+.et9{
+	font-family: "黑体";
+	font-size: 20px;
+	color: #901905;
+	font-weight: normal;
+}
+
+
+
+.list{height:38px;}
+.list td{padding:3px 6px;}
+.list th{background:#2079b5; color:#FFF; padding:3px 6px;}
+.list td{border-bottom:#000 1px solid;}
+.list td.tab01 {color:#175888; /*background:#d5dbd3; */ text-align:left;}
+.tab-tr{background:#d2e9ff;}
+.list td.note{text-align:left;}
+
+
+.red-font{
+	font-size: 12px;
+	color: #930000;
+	font-weight: normal;
+	text-align: center;
+	vertical-align: middle;
+}
+
+
+.c1{width: 110px;}
+.c2{width: 80px;}
+.c3{width: 150px;}
+.c4{width: 100px;}
+.c5{width: 250px;}
+.c6{width: 60px;}
+
+
+a:link {
+	font-size: 12px;
+	color: #930000;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:visited {
+	font-size: 12px;
+	color: #930000;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:hover {
+	font-size: 12px;
+	color: #0F76B9;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:active {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+.tab-tr1{
+	height: 95px;
+	background:#d2e9ff;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.tab-tr1-1{
+	font-family: "Arial";
+	color: #930000;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+.tab-tr2{
+	height: 95px;
+	background:#b2d9ff;
+	font-size: 12px;
+	font-weight: normal;
+	text-align: center;
+}
+
+.tab-tr2-1{
+	font-family: "Arial";
+	color: #930000;
+	text-align: left;
+	vertical-align: top;
+}
+
+
+/*.JR{
+	float: left;
+	padding-top: 32px;
+	padding-left: 5px;
+}*/
+
+.pic{
+	float: right;
+	padding-top: 15px;
+	padding-right: 5px;
+}

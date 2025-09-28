@@ -1,0 +1,324 @@
+@charset "utf-8";
+body,ul,li,h1,h2,h3,h4,h5,h6,p,img,table,tr,td,{ margin:0; padding:0; border:none;}
+.css {
+	color: #FFFFFF;
+	font-family: Arial, Helvetica, sans-serif;
+}
+td {
+	font-size: 12px;
+	line-height: 22px;
+	color: #032F55;
+	font-family: Arial, "宋体";
+}
+.txt_18 {
+	font-size: 16px;
+	line-height: 32px;
+	color: #0A428F;
+	font-weight: bold;
+}
+a:link {
+	font-size: 12px;
+	color: #16334C;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:visited {
+	font-size: 12px;
+	color: #16334C;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:hover {
+	font-size: 12px;
+	color: #0F76B9;
+	text-decoration: none;
+	font-family: Arial, "宋体";
+}
+a:active {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+
+a.b:link {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+a.b:visited {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+a.b:hover {
+	color: #FFFF00;
+	text-decoration: none;
+	font-size: 16px;
+	line-height: 24px;
+}
+.s1 { padding:0; margin:0;
+	background-image: url(../images/f1.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.s2 {
+	background-image: url(../images/q1.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.s3 {
+	background-image: url(../images/oi1.jpg);
+	background-repeat: no-repeat;
+	background-position: center bottom;
+	background-color: #e8e8e8;
+}
+.pout {
+	background-image: url(../images/g2.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 50px;
+}
+.pover {
+	background-image: url(../images/g22.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+	padding-left: 50px;
+}
+a.e:link {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+a.e:visited {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #333333;
+	text-decoration: none;
+}
+a.e:hover {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #666666;
+	text-decoration: none;
+}
+a.e:active {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #000000;
+	text-decoration: none;
+}
+.up {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+}
+
+
+
+
+
+
+.sec1 { 
+  background-color: #EEEEEE;
+  cursor: hand;
+  color: #000000;
+  background:url(../images/iu2.jpg) no-repeat; 
+    text-align:center;
+	  width:75px;
+  }
+.sec2 { 
+  background-color: #D4D0C8;
+  cursor: hand;
+  color: #000000;
+   background:url(../images/iu1.jpg) no-repeat; 
+  font-weight: bold; 
+  width:75px;
+  text-align:center;
+ 
+  }
+.main_tab {
+	color: #000000;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-left-style: solid;
+	border-right-color: #CCCCCC;
+	border-bottom-color: #CCCCCC;
+	border-left-color: #CCCCCC;
+	border-top-width: 1px;
+	border-top-style: solid;
+	border-top-color: #CCCCCC;
+  }
+.sr {
+	border-bottom-width: 1px;
+	border-bottom-style: solid;
+	border-bottom-color: #d8d8d8;
+}
+.tu {
+	background-image: url(../images/oi7.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.tu1 {
+	border: 1px solid #CCCCCC;
+}
+.tu2 {
+	background-image: url(../images/z7.jpg);
+	background-repeat: repeat-x;
+	background-position: left top;
+}
+.tu3 {
+	background-image: url(../images/b1.jpg);
+	background-repeat: no-repeat;
+	background-position: left top;
+}
+.tu4 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.tu5 {
+	border: 1px solid #d3d3d3;
+}
+.tu6 {
+	background-image: url(../images/ht.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.tu7 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.tu8 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF6600;
+}
+.tu9 {
+	border: 1px solid #F5F5F5;
+}
+.tu10 {
+	background-image: url(../images/lllllll.gif);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.tu11 {
+	border: 1px solid #F2F2F2;
+}
+.tu12 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.tu13 {
+	border: 1px solid #E8E8E8;
+}
+.tu14 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #CCCCCC;
+}
+.tu15 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #FFFFFF;
+	text-decoration: none;
+	font-weight: bold;
+}
+.tu16 {
+	border: 1px solid #F5F5F5;
+}
+.tu17 {
+	border: 1px solid #E8E8E8;
+}
+.tu18 {
+	background-image: url(../images/yu1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.tu20 {
+	background-image: url(../images/nd1.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+a.fr:link {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+}
+a.fr:visited {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF6600;
+	text-decoration: none;
+}
+a.fr:hover {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	color: #FF0000;
+	text-decoration: none;
+	font-weight: bold;
+}
+a.fr:active {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #333333;
+	text-decoration: none;
+}
+.jjjk {
+	background-image: url(../images/nnd4.jpg);
+	background-repeat: repeat-y;
+	background-position: left top;
+}
+.et1 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FF6600;
+}
+.et2 {
+	border-bottom-width: 1px;
+	border-bottom-style: dashed;
+	border-bottom-color: #FF9900;
+}
+.et3 {
+	font-family: Arial, "宋体";
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.et4 {
+	border: 1px solid #CCCCCC;
+}
+.et8 {
+	background-image: url(../images/oo8.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.et9 {
+	font-family: "黑体";
+	font-size: 20px;
+	color: #901905;
+	font-weight: normal;
+}
+.et10 {
+	font-family: "黑体";
+	font-size: 16px;
+	color: #901905;
+}
