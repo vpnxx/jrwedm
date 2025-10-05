@@ -1,209 +1,243 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta charset="UTF-8"/>
-	<title>电火花线切割穿丝孔位置、数量及对加工的影响</title>
-	<link rel="icon" sizes="any" mask href="../../../images/logo.png" type="image/x-icon"/>
-	<style type="text/css">
-		body { padding:0; margin:0;}
-	</style>
-	<link href="../../../css/css.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8"/>
+    <title>电火花线切割穿丝孔位置、数量及对加工的影响</title>
+    <link rel="icon" sizes="any" mask href="../../../images/logo.png" type="image/x-icon"/>
+    
+    <link href="../../../css/css.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" rel="stylesheet" href="../../../css/list.css" />
+    <link type="text/css" rel="stylesheet" href="../../../css/ddsmoothmenu.css">
+    <script type="text/javascript" src="../../../js/ddsmoothmenu.js"></script>
 
-	<link type="text/css" rel="stylesheet" href="../../../css/list.css" />
-
-	<script language=javascript>
-		function secBoard(n)
-		{
-		 	for(i=0;i<secTable.cells.length;i++)
-		  	secTable.cells[i].className="sec1";
-		 	secTable.cells[n].className="sec2";
-		 	for(i=0;i<mainTable.tBodies.length;i++)
-		  	mainTable.tBodies[i].style.display="none";
-		 	mainTable.tBodies[n].style.display="block";
-		}
-	</script>
+    <script language="javascript">
+        function secBoard(n) {
+            var secTable = document.getElementById("secTable");
+            var mainTable = document.getElementById("mainTable");
+            if(secTable && mainTable) {
+                for(var i = 0; i < secTable.cells.length; i++)
+                    secTable.cells[i].className = "sec1";
+                secTable.cells[n].className = "sec2";
+                for(var i = 0; i < mainTable.tBodies.length; i++)
+                    mainTable.tBodies[i].style.display = "none";
+                mainTable.tBodies[n].style.display = "block";
+            }
+        }
+    </script>
 </head>
 <body>
+    <table width="1002" height="86" border="0" align="center" cellpadding="0" cellspacing="0" class="s1" style="margin:0 auto;">
+        <tr>
+            <td align="left"><img src="../../../images/lo_cn.png" width="391" height="86" alt="佳润公司Logo" /></td>
+            <td align="right" valign="top" style="padding-top:10px;">
+                <table width="242" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="0"></td>
+                    </tr>
+                    <tr>
+                        <td align="right">
+                            <table width="180" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td align="center"><img src="../../../images/GQ1.jpg" width="21" height="14" alt="中文版" /></td>
+                                    <td align="center"><a href="1.html">中文版</a></td>
+                                    <td align="center"><img src="../../../images/GQ2.jpg" width="21" height="14" alt="English version" /></td>
+                                    <td align="center"><a href="1.html">English</a></td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
-    <style type="text/css">
-		body {	margin:0;	padding:0;}
-	</style>
-	<link href="../../../css/css.css" rel="stylesheet" type="text/css">
+    <div id="smoothmenu1" class="ddsmoothmenu">
+        <ul>
+            <li><a href="../../../index.html">首 页</a></li>
+            <li><a href="../../about.html">关于我们</a></li>  
+            <li><a href="../../products/list.html">产品展示</a></li> 
+            <li><a href="../../video/index.html">影片介绍</a></li>
+            <li><a href="../../news.html">公司资讯</a></li>    
+            <li><a href="../../contact.html">联系我们</a></li>
+            <li><a href="../../notice1.html">重要通告</a></li>  
+            <li><a href="../index.html">佳润论坛</a></li>
+        </ul>
+        <p style="clear:both; height:0; font-size:0; line-height:0;"></p>
+    </div>
 
-	<table width="1002" height="86" border="0" align="center" cellpadding="0" cellspacing="0" class="s1" style="margin:0 auto;">
-  		<tr>
-    		<td align="left"><img src="../../../images/lo_cn.png" width="391" height="86" /></td>
-   			<td align="right" valign="top" style="padding-top:10px;">
-				<table width="242" border="0" cellspacing="0" cellpadding="0">
-      				<tr>
-        				<td height="0"></td>
-      				</tr>
-      				<tr>
-        				<td align="right">
-	        				<table width="180" border="0" cellspacing="0" cellpadding="0">
-		        				<tr>
-							        <td align="center"><img src="../../../images/GQ1.jpg" width="21" height="14" /></td>
-							        <td align="center"><a href="1.html">中文版</a></td>
-							        <td align="center"><img src="../../../images/GQ2.jpg" width="21" height="14" /></td>
-							        <td align="center"><a href="1.html">English</a></td>
-				          		</tr>
-        					</table>
-        				</td>
-      				</tr>
-    			</table>
-    		</td>
-  		</tr>
-	</table>
+    <table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <td width="223" height="32" align="center" valign="top" class="s3">
+                <table width="223" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td>
+                            <img src="../../../images/zf.jpg" width="223" height="23" alt="分割线" />
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="8"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <table width="223" border="0" cellspacing="0" cellpadding="0">
+                                <tr>
+                                    <td height="10"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <table width="223" border="0" cellspacing="0" cellpadding="0">
+                                            <tr>
+                                                <td>
+                                                    <img src="../../../images/forum_cn.jpg" width="223" height="35" alt="佳润论坛" />
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
+                                                    <a href="../index.html"><span style="color: #032F55">佳润工作液使用</span></a>
+                                                </td>
+                                            </tr>
+                                            <tr>
+                                                <td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
+                                                    <a href="../process.html"><span style="color: red">电火花线切割加工工艺集锦</span></a>
+                                                </td>
+                                            </tr>                   
+                                            <tr>
+                                                <td>
+                                                    <img src="../../../images/qs2.jpg" width="223" height="36" alt="分割线" />
+                                                </td>
+                                            </tr>
+                                        </table>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td height="20"></td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <a href="../../contact.html">
+                                            <img src="../../../images/oi2_cn.jpg" width="223" style="border:none;" alt="联系我们" />
+                                        </a>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>&nbsp;</td>
+                                </tr>
+                            </table>
+                        </td>
+                    </tr>
+                </table>
+            </td>
 
-	<link type="text/css" rel="stylesheet" href="../../../css/ddsmoothmenu.css">
-	<script type="text/javascript" src="../../../js/ddsmoothmenu.js"></script>
-	<link href="../../../css/css.css" rel="stylesheet" type="text/css" />
+            <td width="8">&nbsp;</td>
+            <td align="left" valign="top">
+                <table width="770" border="0" cellspacing="0" cellpadding="0">
+                    <tr>
+                        <td height="35" class="tu3" style="padding-left:30px">
+                            <a href="../index.html"><span style="color: #032F55">佳润论坛</span></a>&nbsp; &gt; &nbsp;电火花线切割加工工艺集锦
+                        </td>
+                    </tr>
+                </table>
 
-	<div id="smoothmenu1" class="ddsmoothmenu">
-	  	<ul>
-		    <li><a href="../../../index.html">首 页</a></li>
-		    <li><a href="../../about.html">关于我们</a></li>  
-		    <li><a href="../../products/list.html">产品展示</a></li> 
-		    <li><a href="../../video/index.html">影片介绍</a></li>
-		    <li><a href="../../news.html">公司资讯</a></li>    
-		    <li><a href="../../contact.html">联系我们</a></li>
-		    <li><a href="../../notice1.html">重要通告</a></li>  
-		    <li><a href="../index.html">佳润论坛</a></li>
-	  	</ul>
-	  	<p style="clear:both; height:0; font-size:0; line-height:0;"></p>
-	</div>
+                <table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
+                    <tr>
+                        <td height="40"></td>
+                    </tr>
+                    <tr>
+                        <td class="tu12" bgcolor="#f3f3f3" height="40" valign="center" colspan="2" align="left" style="font-size: 18px;">
+                            <span class="article-title">电火花线切割穿丝孔位置、数量及对加工的影响</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td height="30"></td>
+                    </tr>
+                    <tr>
+                        <td class="article-content">
+                            <p>穿丝孔是采用其它加工方法（如机械钻孔、电火花穿孔）在工件上加工的工艺孔，穿丝孔的加工一般遵循的原则如下：</p>
+                            <p>
+								（1）穿丝孔直径大小及位置。考虑到穿丝的方便性，机加工时一般孔直径为𝜑3-10 mm，并且孔径最好选取整数值。如果切割型腔多，且排布较紧密，可以采用电火花穿孔的方式，选择较小的穿丝孔径（𝜑0.3-3.0mm），以避免各穿丝孔相互打通的问题。穿丝孔的位置最好是已知坐标点或便于计算的点。
+							</p>
+                            <p>
+								（2）切割凹模或孔类型腔零件必须加工穿丝孔，以保证工件的完整性，对于小凹模，尤其是圆孔类零件的切割，起割点可设在型孔中心，如图1（a）所示；对于大凹模切割，起割点可设在靠近加工轨迹交点处附近，以缩短无用轨迹，并便于编程与检查。此时无用的切入行程不要太长，可以距离边缘2-5mm，以节省加工时间，如图1（b）所示。
+							</p>
+							<div class="image-gallery">
+                                <figure>
+                                    <img src="../../../images/forum/1.1a.png" alt="">
+                                    <figcaption>(a)</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="../../../images/forum/1.1b.png" alt="">
+                                    <figcaption>(b)</figcaption>
+                                </figure>
+                            </div>
+							<p>
+								（3）切割凸模类零件，应尽可能避免将坯料外形切断，因为这样会破坏材料内部应力平衡，使材料发生较大的变形，影响加工精度，变形严重时还会造成夹丝，使切割无法稳定进行，甚至产生断丝，如图2（a）所示。穿丝孔通常选在坯料外形附近，且切割轨迹与坯料边缘距离应大于5mm，如图2（b）所示。切割大型凸模时，尤其是厚度较大的大型凸模时，由于切割过程中，断丝几率较高，且切割面积较大，电极丝直径损耗也需要考虑，因此有条件时可沿加工轨迹设置数个穿丝孔，以便切割中发生断丝时能够就近重新穿丝，继续切割，如图3所示。
+							</p>
+							<div class="image-gallery">
+                                <figure>
+                                    <img src="../../../images/forum/1.2a.png" alt="" width="50%">
+                                    <figcaption>(a)</figcaption>
+                                </figure>
+                                <figure>
+                                    <img src="../../../images/forum/1.2b.png" alt="" width="50%">
+                                    <figcaption>(b)</figcaption>
+                                </figure>
+                            </div>
+							<p>
+								（4）切割窄槽时，穿丝孔应设在图形的最宽处，不允许穿丝孔与切割轨迹发生重合现象。
+							</p>
+							<p>
+								（5）穿丝孔一般应在零件淬硬之前加工好（电火花穿孔不受此限制），且加工后需清除孔中铁屑杂质。
+							</p>
+							<div class="image-gallery">
+                                <figure>
+                                    <img src="../../../images/forum/1.3.png" alt="">
+                                    <figcaption>图3 大型凸模切割时设置多个穿丝孔的情况</figcaption>
+                                </figure>
+                            </div>
+							<p>
+								（6）穿丝孔的表面质量和精度不能太差，尤其对于不需要加工、直接作为基准的穿丝孔而言，表面质量和加工精度要求更高。由于这些孔的位置是作为基准用的，后续需要通过电极丝放电火花法、电阻法或自动找中心法对中心。如孔的质量较差，必然会增大基准误差。这类穿丝孔一般需要经过粗、精加工完成，实际加工中往往通过钻、扩、铰完成。
+							</p>
+							<p>
+								（7）在同一坯料上切割两个以上工件时，应各自设置独立的穿丝孔，以减少坯料的变形，如图4所示。
+							</p>
+							<div class="image-gallery">
+                                <figure>
+                                    <img src="../../../images/forum/1.4.png" alt="" width="600px">
+                                    <figcaption>图4 多型腔加工穿丝孔设置示意图</figcaption>
+                                </figure>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <table cellspacing="0" cellpadding="0" width="770" border="0">
+                    <tr>
+                        <td height="150"></td>
+                    </tr>
+                </table>
+            </td>
+        </tr>
+    </table>
 
-	<table width="1002" border="0" align="center" cellpadding="0" cellspacing="0">
-  		<tr>
-    		<td width="223" height="32" align="center" valign="top" class="s3">
-    			<style type="text/css">
-					body {
-						margin-left: 0px;
-						margin-top: 0px;
-						margin-right: 0px;
-						margin-bottom: 0px;
-					}
-				</style>
-				<link href="../../../css/css.css" rel="stylesheet" type="text/css">
-				<table width="223" border="0" cellspacing="0" cellpadding="0">
-  					<tr>
-    					<td>
-    						<img src="../../../images/zf.jpg" width="223" height="23" />
-    					</td>
-  					</tr>
-  					<tr>
-    					<td height="8"></td>
-  					</tr>
-  					<tr>
-    					<td>
-    						<table width="223" border="0" cellspacing="0" cellpadding="0">
-      							<tr>
-        							<td height="10"></td>
-      							</tr>
-      							<tr>
-        							<td>
-        								<table width="223" border="0" cellspacing="0" cellpadding="0">
-          									<tr>
-            									<td>
-            										<img src="../../../images/forum_cn.jpg" width="223" height="35" />
-            									</td>
-          									</tr>
-              								<tr>
-                  								<td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
-                    								<a href="../index.html">佳润工作液使用</a>
-                  								</td>
-              								</tr>
-              								<tr>
-                  								<td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
-                    								<a href="../process.html"><span style="color: red">电火花线切割加工工艺集锦</span></a>
-                  								</td>
-              								</tr>					
-          									<tr>
-            									<td>
-            										<img src="../../../images/qs2.jpg" width="223" height="36" />
-            									</td>
-          									</tr>
-        								</table>
-        							</td>
-      							</tr>
-      							<tr>
-        							<td height="20"></td>
-      							</tr>
-      							<tr>
-         							<td>
-         								<a href="../../contact.html">
-         									<img src="../../../images/oi2_cn.jpg" width="223" style="border:none;" />
-         								</a>
-         							</td>
-      							</tr>
-      							<tr>
-        							<td>&nbsp;</td>
-      							</tr>
-    						</table>
-    					</td>
-  					</tr>
-				</table>
-			</td>
+    <table class="tu2" width="1002" height="50" border="0" cellspacing="0" cellpadding="0" align="center" style="padding-top: 5px;">
+        <tr>
+            <td style="text-align: center">
+                <span style="color:#939393; vertical-align: middle;">
+                    <a href="http://www.jrwedm.com">
+                        <span style="color:#939393;">&copy;</span>&nbsp;佳润线切割液生产厂
+                    </a>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备17032288号
+                </span> 
 
-    		<td width="8">&nbsp;</td>
-			<td align="left" valign="top">
-				<table width="770" border="0" cellspacing="0" cellpadding="0">
-	        		<tr>
-        				<td height="35" class="tu3" style="padding-left:30px">
-        					<a href="../index.html">佳润论坛</a>&nbsp; &gt; &nbsp;电火花线切割加工工艺集锦
-        				</td>
-      				</tr>
-				</table>
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
 
-				<table width="750" border="0" cellspacing="0" cellpadding="0" align="center">
-				    <tr>
-				      	<td height="40"></td>
-				    </tr>
-				    <tr>
-				      	<td class="tu12" bgcolor="#f3f3f3" height="28" valign="center" colspan="2" align="left" style="font-size: 18px;">
-				        	<span style="color: red">电火花线切割穿丝孔位置、数量及对加工的影响</span>
-				      	</td>
-				    </tr>
-				    <tr>
-				      	<td height="20"></td>
-				    </tr>
-				    <tr>
-				      	<td style="font-size: 16px; text-align: justify; text-justify:inter-ideograph">
-				        	
-				      	</td>
-				    </tr>
-				</table>
-				<table cellspacing="0" cellpadding="0" width="770" border="0">
-				    <tr>
-				      	<td height="100"></td>
-				    </tr>
-				</table>
-
-			</td>
-		</tr>
-	</table>
-
-	<table class="tu2" width="1002" height="50" border="0" cellspacing="0" cellpadding="0" align="center" style="padding-top: 5px;">
-		<tr>
-			<td style="text-align: center">
-				<span style="color:#939393; vertical-align: middle;">
-					<a href="http://www.jrwedm.com">
-						<span style="color:#939393;">&copy;</span>&nbsp;佳润线切割液生产厂
-					</a>
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;浙ICP备17032288号
-				</span>	
-
-						&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-
-		 		<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33068102000388" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;vertical-align: middle;">
-		 			<img src="../../../images/beian.png" style="float:left;"/>
-		 			<p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
-		 				浙公网安备 33068102000388号
-		 			</p>
-		 		</a>			
-			</td>
-		</tr>
-	</table>
-	
+                <a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33068102000388" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;vertical-align: middle;">
+                    <img src="../../../images/beian.png" style="float:left;" alt="公安备案"/>
+                    <p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">
+                        浙公网安备 33068102000388号
+                    </p>
+                </a>            
+            </td>
+        </tr>
+    </table>
 </body>
 </html>

@@ -322,3 +322,77 @@ a.fr:active {
 	font-size: 16px;
 	color: #901905;
 }
+
+
+.image-gallery {
+	display: flex;
+	justify-content: space-around;
+	align-items: flex-start;
+	width: 90%;
+	margin: 0px auto;
+	/* border: 0px solid #ccc; */
+	padding: 0px;
+	box-sizing: border-box;
+}
+
+.image-gallery figure {
+	max-width: 48%;
+	flex-basis: 48%;
+	margin: 0;
+	padding: 5px;
+	/* border: 0px solid #007bff; */
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.image-gallery img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 0 auto 10px auto;
+}
+
+.image-gallery figcaption {
+	font-size: 14px;
+	/* color: #333; */
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+
+@media (max-width: 768px) {
+	.image-gallery {
+		flex-direction: column;
+		align-items: center;
+	}
+	.image-gallery figure {
+		max-width: 90%;
+		flex-basis: auto;
+		margin-bottom: 20px;
+	}
+}
+
+.article-title {
+	color: red;
+	padding-left: 10px;
+}
+.article-content {
+	font-size: 15px;
+	text-align: justify;
+	text-justify: inter-ideograph;
+	line-height: 1.8;
+	padding: 0 15px;
+}
+/* .article-content img {
+	max-width: 100%;
+	height: auto;
+	display: block;
+	margin: 20px auto;
+} */
+
+.article-content p {
+	text-indent: 2em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+

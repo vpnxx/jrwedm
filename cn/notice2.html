@@ -23,54 +23,6 @@
 
 </head>
 <body>
-    <style>
-        body {  margin:0;   padding:0;}
-        .image-gallery {
-            display: flex;
-            justify-content: space-around;
-            align-items: flex-start;
-            width: 90%;
-            margin: 0px auto;
-            border: 0px solid #ccc;
-            padding: 0px;
-            box-sizing: border-box;
-        }
-
-        .image-gallery figure {
-            max-width: 48%;
-            flex-basis: 48%;
-            margin: 0;
-            padding: 5px;
-            border: 0px solid #007bff;
-            box-sizing: border-box;
-            text-align: center;
-        }
-
-        .image-gallery img {
-            max-width: 100%;
-            height: auto;
-            display: block;
-            margin: 0 auto 10px auto;
-        }
-
-        .image-gallery figcaption {
-            font-size: 14px;
-            color: #333;
-            padding: 5px 0;
-        }
-
-        @media (max-width: 768px) {
-            .image-gallery {
-                flex-direction: column;
-                align-items: center;
-            }
-            .image-gallery figure {
-                max-width: 90%;
-                flex-basis: auto;
-                margin-bottom: 20px;
-            }
-        }
-    </style>
     <link href="../css/css.css" rel="stylesheet" type="text/css">
 
     <table width="1002" height="86" border="0" align="center" cellpadding="0" cellspacing="0" class="s1" style="margin:0 auto;">
@@ -153,12 +105,12 @@
                                             </tr>
                                             <tr>
                                                 <td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
-                                                    <a href="notice1.html">重要通告1</a>
+                                                    <a href="notice1.html"><span style="color: #032F55">重要通告 1</span></a>
                                                 </td>
                                             </tr>
                                             <tr>
                                                 <td height="25" align="left" class="pout" onMouseOver="this.className='pover'" onMouseOut="this.className='pout'">
-                                                    <a href="notice2.html" style="color: blue;">重要通告2</a>
+                                                    <a href="notice2.html"><span style="color: red">重要通告 2</span></a>
                                                 </td>
                                             </tr>
                                             <tr>
